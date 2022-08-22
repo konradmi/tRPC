@@ -1,0 +1,27 @@
+{
+  "name": "trpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konradmi/tRPC.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konradmi/tRPC/issues"
+  },
+  "homepage": "https://github.com/konradmi/tRPC#readme",
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "wsrun": "^5.2.4"
+  }
+}

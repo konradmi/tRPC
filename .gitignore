@@ -1,0 +1,12 @@
+.DS_STORE
+*.log
+
+.env
+
+node_modules
+dist
+coverage
+
+# IDE
+.idea
+.vscode
