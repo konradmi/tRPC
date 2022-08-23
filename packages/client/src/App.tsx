@@ -15,6 +15,10 @@ const AppContent = () => {
     addMessage.mutate({
       user: 'Konrad',
       message: 'Hello Konrad',
+    }, {
+      onSuccess: () => {
+        client.invalidateQueries(['getMessages'])
+      }
     })
   }
 
